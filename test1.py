@@ -1,7 +1,3 @@
-a, b = map(int, input().split())
-if a > b:
-    print(">")
-elif a < b:
-    print("<")
-else:
-    print("==")
+a = int(input())
+for i in range(1, 10):  # 1부터 9까지
+    print(a, "x", i, '=', a * i)
