@@ -1,3 +1,9 @@
-a = int(input())
-for i in range(1, 10):  # 1부터 9까지
-    print(a, "x", i, '=', a * i)
+import sys
+
+while True:
+#    a, b = map(int, input().split())
+    a, b = map(int, sys.stdin.readline().split())
+    if a ==0 and b == 0:
+        break
+    else:
+        print(a+b)
