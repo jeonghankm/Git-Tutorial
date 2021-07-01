@@ -4,7 +4,10 @@ def d(n):
         ret += (n % 10)
         n = n // 10
     return ret
+
+
 A = []
+
 for i in range(10000 + 1):
     A.append(i)
 for i in range(10000 + 1):
